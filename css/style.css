@@ -1,0 +1,601 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
+@font-face {
+  font-family: Anton-Regular;
+  src: url(../fonts/Anton-Regular.ttf);
+}
+@media (min-width: 450px) {
+  .elegante1, .elegante2, .elegante3 {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .elegante1 {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(144, 25, 180, 0.3137254902);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .elegante1:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  .elegante2 {
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+    color: #555;
+    text-align: justify;
+    padding: 15px;
+    background-color: rgba(144, 25, 180, 0.3137254902);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  .elegante2:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  .elegante3 {
+    font-family: "Verdana", sans-serif;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(144, 25, 180, 0.3137254902);
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  .elegante3:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+}
+@media (max-width: 450px) {
+  .lorem2 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .explicacion {
+    width: 500px;
+    height: 300px;
+  }
+}
+@media (max-width: 550px) {
+  .explicacion {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .explicacion {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .container-2 {
+    max-width: 100%;
+  }
+}
+@media (max-width: 340px) {
+  ul {
+    font-size: 12px;
+  }
+}
+.lv-logo {
+  height: 30px;
+  width: 60px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#header {
+  position: fixed;
+  background: rgb(31, 11, 11);
+  color: wheat;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.navbar {
+  background-color: rgb(98, 22, 170);
+}
+
+.navbar-brand {
+  color: white;
+  font-family: Anton-Regular;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Elegante {
+  color: white;
+  text-align: center;
+  font-family: Anton-Regular;
+  font-size: 40px;
+}
+
+body {
+  background-color: rgba(113, 15, 143, 0.2470588235);
+  font-family: sans-serif;
+}
+
+#body-main {
+  background-color: rgba(113, 15, 143, 0.2470588235);
+}
+
+.lorem, .lorem2 {
+  margin: 0px 15px 10px 10px;
+}
+
+.lorem2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(144, 25, 180, 0.3137254902);
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+.lorem2:hover {
+  box-shadow: 0 2px 6px rgb(0, 0, 0);
+  transform: translateY(-3px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.traje {
+  margin: 0px 4px 0px 4px;
+  height: 700px;
+  width: 700px;
+}
+
+.traje1:hover {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.traje2:hover {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.traje3:hover {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.Elegante {
+  color: white;
+  text-align: center;
+  font-family: Anton-Regular;
+  font-size: 40px;
+}
+
+h1 {
+  font-family: Anton-Regular;
+}
+
+.h1-main {
+  margin: 100px 0px 100px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+.h1-main:hover {
+  color: #4f07a1;
+}
+
+h2 {
+  margin: 100px 0px 100px 0px;
+  font-size: 40px;
+  font-family: Anton-Regular;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid burlywood;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content {
+  background-image: url(/images/lv.png);
+  background-size: contain;
+  opacity: 30%;
+}
+
+#footer-1 {
+  float: right;
+}
+
+.footer-main:hover {
+  transform: rotate(2deg);
+  transition: transform 0.3s ease;
+}
+
+.bi-shop {
+  height: 30px;
+  width: 30px;
+  padding: 10px 4px 0px 4px;
+}
+
+#body-2 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  flex: 1 0 auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-2 {
+  flex: 1 0 auto;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-3 {
+  flex: 1 0 auto;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(83, 9, 102);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#footer-2 {
+  background-color: rgb(32, 3, 59);
+  padding: 20px 0;
+  text-align: center;
+}
+
+#footer-2 p {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #fafafa;
+}
+
+#footer-2 a {
+  color: rgb(187, 255, 0);
+  text-decoration: none;
+}
+#footer-2 a:hover {
+  color: #ff0000;
+}
+
+#div-faq {
+  font-family: Arial, sans-serif;
+  color: #ff1212;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  color: #333;
+}
+
+.inicio-faq {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-family: cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.elegante-faq {
+  font-family: Anton-Regular;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.faq {
+  margin-bottom: 20px;
+}
+.faq .question {
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 70px;
+  position: relative;
+  padding-right: 30px;
+  cursor: pointer;
+}
+.faq .question.active {
+  color: #ff1212;
+}
+.faq .question::before {
+  content: "-";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease-in-out;
+}
+.faq .question:hover::before {
+  color: #002fff;
+  transform: scale(1.2);
+}
+.faq .answer {
+  max-height: 0;
+  padding-bottom: 30px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  display: none;
+  font-size: 20px;
+  color: #002fff;
+}
+.faq .answer.active {
+  display: block;
+}
+.faq .answer p {
+  margin: 0;
+}
+.faq .question.active::before {
+  content: "-";
+  transform: translateY(-50%) rotate(45deg);
+}
+.faq .question.active + .answer {
+  max-height: 1000px;
+}
+
+.footer-faq {
+  flex-shrink: 0;
+  background-color: rgb(32, 3, 59);
+  padding: 20px;
+  color: white;
+}
+
+.footer-faq-main {
+  font-weight: bolder;
+  color: #00ff55;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer-section {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links a {
+  color: #ff1212;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+.body-pago {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(113, 15, 143, 0.2470588235);
+  color: #ff1212;
+  margin: 0;
+  padding: 0;
+}
+
+.header-pago {
+  background-color: rgb(98, 22, 170);
+  color: #fff;
+  padding: 20px;
+}
+
+.h1-pago {
+  margin: 0;
+}
+
+.div-pago {
+  display: flex;
+}
+
+.nav-pago ul {
+  list-style: none;
+}
+.nav-pago ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.nav-pago ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-pago ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex-grow: 1;
+  padding: 10px;
+}
+main section .h2-pago {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 70px;
+}
+main section .p-pago {
+  color: #555;
+  line-height: 1.5;
+  padding: 5px 0px 40px 0px;
+}
+main section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+main section ul li {
+  margin-bottom: 20px;
+}
+main section ul li .h3-pago {
+  font-size: 20px;
+  margin: 30px 0px 30px 15px;
+}
+main section ul li .p-pago {
+  color: #555;
+  line-height: 1.5;
+}
+
+.footer-pago {
+  background-color: rgb(49, 9, 87);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer-pago .p-pago {
+  margin: 0;
+}
+
+#body-quienes {
+  height: 100%;
+  width: 100%;
+}
+
+#quienes-somos {
+  display: f;
+}
+#quienes-somos:hover {
+  color: rgb(9, 255, 0);
+}
+
+.main-quienes {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.nav-quienes {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-quienes .nav-menu-quienes {
+  display: flex;
+  list-style: none;
+}
+.nav-quienes .nav-menu-quienes li {
+  margin-right: 15px;
+}
+.nav-quienes .nav-menu-quienes li:last-child {
+  margin-right: 0px;
+}
+.nav-quienes .nav-menu-quienes li .a-quienes {
+  text-decoration: none;
+  color: rgb(230, 255, 2);
+  transition: color 0.3s;
+}
+.nav-quienes .nav-menu-quienes li .a-quienes:hover {
+  color: #002fff;
+}
+.nav-quienes .nav-menu-quienes li .a-quienes:active .a-quienes {
+  color: #ff1212;
+}
+
+.h4-quienes_somos {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*# sourceMappingURL=style.css.map */
